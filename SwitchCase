@@ -1,0 +1,9 @@
+/*structure de controle Switch case*/
+Switch (i % 2){  
+  case 0:
+    System.out.println("C'est un nombre pair");
+    break;
+  case 1:
+    System.out.println("C'est un nombre impair");
+    break;
+}
