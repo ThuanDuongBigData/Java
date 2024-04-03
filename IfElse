@@ -1,0 +1,20 @@
+/* if else */
+class ifElseDemo{
+public static void main(String args[]){
+  int Resultat = 88;
+  int Note;
+
+if (Resultat > 90){
+  Note = 'A';
+} else if (Resultat > 80){
+  Note = 'B';
+} else if (Resultat > 70){
+  Note = 'C';
+} else if (Resultat > 60){
+  Note = 'D';
+} else {
+  Note = 'F';
+}
+System.out.println('La Note finale:' + Note);
+}
+}
