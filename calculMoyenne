@@ -1,0 +1,22 @@
+//creation d'une class Moyenne/Mean
+public class calculMoyenne{
+  
+  public static void main(String args[]){
+   //declaration des 5 variables
+  int TailleA = 99;
+  int TailleB = 98;
+  int TailleC = 97;
+  int TailleD = 96;
+  int TailleE = 95;
+
+  //calcul de la moyenne on additionne les 5 entiers ensuite on divise le total par 5.
+  int Moyenne = (TailleA + TailleB + TailleC + TailleD + TailleE) / 5;
+  
+  //imprimer la reponse moyenne
+  System.out.println("La moyenne": + Moyenne);
+
+  //ecart entre la taille et la moyenne avec la function Math.abs. pour avoir un resultat absolue.
+  System.out.println("Ecart de la taille compare a la moyenne:" + Math.abs(TailleA-Moyenne);
+  
+  }
+}
